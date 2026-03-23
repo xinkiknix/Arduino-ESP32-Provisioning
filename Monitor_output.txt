@@ -1,0 +1,47 @@
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x116c
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x3108
+entry 0x403c88b8
+[SYSTEM] Booting...
+[STATUS] Factory Mode. No credentials in NVS. Starting BLE...
+[RESET] Old Static IP wiped for new provisioning.
+
+Provisioning started
+Give Credentials of your access point using smartphone app
+[mDNS] responder started. Access your ESP32 at http://ESP32.local
+
+Received Wi-Fi credentials
+	SSID : L********
+	Password : WkPXv*******Lqm
+
+Connected IP address : 192.168.1.25
+
+Provisioning Successful
+[Status] Online! URL: http://192.168.1.25
+[Status]Current hostname: http://ESP32.local
+E (62226) protocomm_nimble: Error setting advertisement data; rc = 30
+Provisioning Ends
+192.168.1.33,192.168.1.1,255.255.255.0,esp32test
+
+Disconnected. Connecting to the AP again... 
+
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40381a75
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x116c
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x3108
+entry 0x403c88b8
+[SYSTEM] Booting...
+[STATUS] Deployed Mode. SSID found: L*******
+[WIFI] Static IP Locked: 192.168.1.33
+[mDNS] responder started. Access your ESP32 at http://esp32test.local
+
+Connected IP address : 192.168.1.33
+[Status] Online! URL: http://192.168.1.33
+[Status]Current hostname: http://esp32test.local
